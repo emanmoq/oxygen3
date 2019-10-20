@@ -74,7 +74,7 @@ img{
     margin-bottom: 30px;
 }
 #hero-slider .caption h1 span{
-    color: #cc0256;
+    color: #22deaa;
 }
 .caption .start-btn
 {
@@ -129,8 +129,8 @@ img{
 
 }
 .caption .start-btn:hover, .left-arrow:hover, .right-arrow:hover {
-    border-color: #cc0256;
-    background-color:#cc0256;
+    border-color: #22deaa;
+    background-color:#22deaa;
 }
 .right-arrow {
     right: -51px;
@@ -155,7 +155,16 @@ img{
     right:30px
   }
   .Main-Menu{
-      background-color:#cc0256;
+      background-color:#22deaa;
+  }
+  .scrollNav{
+      position: fixed;
+      width:100%;
+      top:0;
+      z-index: 2222222;
+      box-shadow: rgba(0, 0, 0, 0.2) 2px 3px 7px 3px;
+      transition: 1s all;
+      left: 0;
   }
   .navbar-right li a {
     color: #fff;
@@ -190,7 +199,7 @@ img{
 }
 .ServiceIcon{
     color:white;
-    background-color:#cc0256;
+    background-color:#22deaa;
     font-size:36px;
     height:90px;
     width:90px;
@@ -246,7 +255,7 @@ display: inline-block;
     width:100%;
 }
 .progress-bar.progress-bar-primary{
-    background-color: #cc0256;
+    background-color: #22deaa;
 } 
 
 .progress-bar {
@@ -271,7 +280,10 @@ display: inline-block;
 .PortoImg{
     width:100%;
     transition:.8s all;
-    height:auto;
+    height:250px;
+}
+.PortoImg img{
+    height:100%;
 }
 .overlay{
     background-color:rgba(0,0,0,.8);
@@ -337,7 +349,7 @@ bottom:-100px;
     line-height:50px;
 }
 .overview span a:hover{
-    background-color:#cc0256;
+    background-color:#22deaa;
     color:white
 }
 .PExpand{
@@ -350,6 +362,13 @@ bottom:-100px;
     margin-left:0;
     transition:all .5s;
 
+}
+
+.MemberImg{
+    height:60%;
+}
+.MemberImg img{
+height:100%;
 }
 .memberInfo h3{
     margin-top:30px;
@@ -444,16 +463,16 @@ bottom:-100px;
 .PricingTable .sign-btn{
     border: 0;
     border-radius: 0;
-    background-color: #cc0256;
+    background-color: #22deaa;
 
 }
 .PricingTable.colored{
-    background-color: #cc0256;
+    background-color: #22deaa;
     color:white;
 }
 .PricingTable.colored .sign-btn{
     background-color: white;
-    color:#cc0256;
+    color:#22deaa;
 }
 #twitterSec{
     background-image: url("../images/twitter-bg.jpg");
@@ -467,7 +486,7 @@ bottom:-100px;
     color: #fff;
 }
 #twitterSlider .item a span{
-    color:#cc0256;
+    color:#22deaa;
 }
 .iconTwitter{
     position: relative;
@@ -481,7 +500,7 @@ bottom:-100px;
     width: 60px;
     line-height: 60px;
     border-radius: 50%;
-background-color: #cc0256;
+background-color: #22deaa;
 }
 .iconTwitter i:after{
 position: absolute;
@@ -490,7 +509,7 @@ border-width: 8px;
 border-style: solid;
 left: 24px;
 bottom: -14px;
-border-color: #cc0256 transparent transparent;
+border-color: #22deaa transparent transparent;
 }
 .item p{
     color:white;
@@ -520,7 +539,7 @@ border-color: #cc0256 transparent transparent;
 }
 .twitterSlider-left:hover, .twitterSlider-right:hover{
     color:white;
-    background-color: #cc0256;
+    background-color: #22deaa;
 }
 .blogs .post{
     position: relative;
@@ -537,7 +556,7 @@ border-color: #cc0256 transparent transparent;
     margin-right:15px;
 }
 .blogIcon{
-    background-color:#930440;
+    background-color:#19a57e;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -556,6 +575,7 @@ border-color: #cc0256 transparent transparent;
     font-size:18px;
     line-height: 30px;
     text-decoration: none;
+    color:#19a57e;
 }
 .BlogTitle .postdate, 
 .BlogTitle .PostCateg {
@@ -572,7 +592,7 @@ border-color: #cc0256 transparent transparent;
     bottom: -22px;
     width: 25px;
     height: 4px;
-    background-color: #930440;
+    background-color: #19a57e;
     position: absolute;
     left: 0;
 }
@@ -593,7 +613,7 @@ padding: 15px 125px;}
 
 .moreBlogsbtn:hover{
     color:white;
-    background-color: #930440;
+    background-color: #19a57e;
     text-decoration:none;
 }
 .carousel-indicators{
@@ -643,10 +663,10 @@ textarea{
     color: #fff;
     border: 0;
     margin-top: 40px;
-    background-color:#cc0256;
+    background-color:#22deaa;
 }
 .submitbtn:hover{
-    background-color: #cc0256;
+    background-color: #22deaa;
 }
 .contactinfo{
     color:white;
@@ -672,7 +692,7 @@ textarea{
     padding-bottom:0;
 }
 #footer{
-    background-color:#cc0256;
+    background-color:#22deaa;
     color:white;
 }
 #footer ul {
@@ -736,7 +756,7 @@ textarea{
 }
 
 .copyRight span{
-    color:#cc0256;
+    color:#22deaa;
 }
 .copyRight{
     background-color:white;
