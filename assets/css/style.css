@@ -4,16 +4,11 @@ body{
     color: #666;
     background-color: #fff;
 }
-#hero-slider .item{
-    background-image:url(../images/slider/1.jpg);
- 
-}
+
 img{
     width:100%;
 }
-#hero-slider .item.active{
-    opacity:1;
-}
+
 #hero-slider .item2{
     background-image: url(../images/slider/2.jpg);
 }
@@ -25,16 +20,17 @@ img{
     position: relative;
 }
 .carousel-fade .carousel-inner .item{
+    background-image:url(../images/slider/1.jpg);
+
     opacity: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:2073px;
- 
-}
-.carousel-fade .carousel-inner .item.active{
     transition-property: opacity;
     background-repeat: no-repeat;
     background-size: cover;
+    height:2073px;
+
+}
+.carousel-fade .carousel-inner .item.active{
+opacity: 1;
 }
 
 .bgProp{
@@ -364,12 +360,7 @@ bottom:-100px;
 
 }
 
-.MemberImg{
-    height:60%;
-}
-.MemberImg img{
-height:100%;
-}
+
 .memberInfo h3{
     margin-top:30px;
     font-size:18px;
@@ -767,6 +758,14 @@ textarea{
 }
   /*********************************************************/
   /************** Responsive  *****************************/
+  @media(min-width:1200px){
+    .MemberImg{
+        height:60%;
+    }
+    .MemberImg img{
+    height:90%;
+    }
+  }
   @media (min-width: 768px) and (max-width: 991px) {
     .navbar-right li a {
        font-size: 12px;
